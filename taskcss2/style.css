@@ -1,0 +1,31 @@
+.text :nth-child(1){
+    color: red;
+    border: 2px solid red;
+}
+
+.ul2{
+    background-color: yellow;
+}
+
+.text :nth-child(2){
+    color: rgb(4, 4, 58);
+    background-color: blue;
+}
+
+.text :nth-child(4){
+    color: rgb(15, 212, 107);
+    background-color: rgb(16, 48, 5);
+}
+
+
+.text :nth-child(5){
+    color: rgb(212, 15, 169);
+   
+}
+
+.text :nth-child(6){
+    color: rgb(15, 212, 107);
+    background-color: rgb(16, 48, 5);
+}
+
+
