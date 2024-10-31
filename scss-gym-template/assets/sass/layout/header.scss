@@ -1,0 +1,57 @@
+.header{
+    position: fixed;
+    background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+    width: 100%;
+    p{
+        width: 200px;
+    }
+
+    .header-1{
+        border-bottom: 1px solid black;
+        @include flex (space-around,center);
+    
+        .contact{
+        @include flex (space-around,center);
+        gap: 15px;
+    
+        i{
+            background-color: red;
+        }
+        }
+    }
+    
+    .header-2{
+        .navbar{
+    
+            width: 50%;
+            margin: 0 auto;
+     
+        ul{
+        @include flex (space-around,center); 
+        .dropdown{
+            display: none;
+        }
+    
+        .dropdownhover:hover .dropdown{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            // margin-top: 20px;
+            // position: relative;
+            // top: 30px;
+            // width: 50px;
+            height: 0px;
+            background-color: white;
+        }
+    
+          
+    
+        
+        
+    }
+    }
+    } 
+}
+
