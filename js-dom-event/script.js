@@ -29,11 +29,18 @@ let products = [
 
     
     
+const object=document.getElementsByClassName("object")
+    function showProducts(array){
+    array.forEach(element => {
+      objectbject.innertHTML+=
 
-    const input= document.querySelectorAll(input);
-    const btn=document.querySelector(button);
-
-    btn.addEventListener("click",function(){
-
-    })
-
+      <div class="card">
+      <div class="title">${element.title}</div>
+      <div class="price">${element.price}</div>
+      <div class="description">${element.description}</div>
+      <div class="img">${element.img}</div>
+      
+      </div>
+      
+    });
+   }
