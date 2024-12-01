@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:  "Quicksand", sans-serif; 
+ 
+}
+
+.containerr{
+  width: 100%;
+}
+
+header {
+  background-color: rgba(16, 99, 78, 0.9);
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40%;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  padding-top: 1%;
+
+  .logo{
+    font-size: 23px;
+  }
+
+  a {
+    color: white;
+text-decoration: none;
+  }
+
+  navbar {
+    margin-right:8%;
+    
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20%;
+
+
+
+
+    }
+
+  }
+
+
+}
+
+
+.bannerr{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+padding-top: 20%;
+color: rgba(16, 99, 78, 0.9) ;
+
+.text-banner{
+  font-size: 25px;
+
+}
+
+}
+
+
+.mission{
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg);
+  background-size: cover;
+
+
+  .mission-cards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   .mission-card1{
+width: 500px;
+height: 500px;
+display:flex;
+flex-direction: column;
+// align-items: center;
+justify-content: center;
+text-align: left;
+padding: 0 100px;
+background-color: rgba(16, 99, 78, 0.9) ;
+color: white;
+
+.mission-btn{
+  width: 140px;
+  height: 40px;
+  border: none;
+  color:  rgba(16, 99, 78, 0.9);
+}
+
+    }
+    .mission-cards{
+      width: 500px;
+      height: 500px;
+    }
+  }
+}
+
+
+.flower-cards{
+  
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding-top: 10%;
+background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg
+  );
+  
+
+}
+
+.flower-card{
+  width:300px;
+  height: 330px;
+
+  text-align: center;
+  margin-bottom: 10%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  gap: 10%;
+  color:  rgba(16, 99, 78, 0.9);
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg
+  );
+  background-size: cover;
+  text-align: center;
+
+.cards-pricing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+
+
+  .card-pricing{
+    width: 390px;
+    height: 370px;
+    border: 2px solid  rgba(16, 99, 78, 0.9);
+    color:  rgba(16, 99, 78, 0.9);
+    text-align: center;
+    padding-top: 9%;
+    .pricing-btn{
+      color:rgba(16, 99, 78, 0.9) ;
+      width: 100px;
+      height: 40px;
+      border: none;
+      background-color: #10a28e2a;
+    }
+  }
+}
+}
+
+
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color:  rgba(16, 99, 78, 0.9);
+  
+padding-top: 10%;
+ 
+
+
+.team-cards{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+  width: 100%;
+  height: 100vh;
+
+  .team-card{
+    width:350px;
+    height: 330px;
+    text-align: center;
+    margin-bottom: 10%;
+    
+    img{
+      width: 100%;
+      height: 100%;
+      margin-bottom:5%;
+    }
+    }
+ 
+  }
+  
+  }
+
+
+  .cards-footer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(78, 109, 109, 0.173);
+  color:  rgba(16, 99, 78, 0.9);
+
+  .card-footer{
+text-align: left;
+    .button-input{
+      display: flex;
+
+
+    
+input{
+  border: none;
+border-bottom: 1px solid rgba(16, 99, 78, 0.9);
+  width: 300px;
+  height: 30px;
+  background-color: rgba(78, 109, 109, 0.015);
+  outline: none;
+  position: absolute;
+  
+  
+  
+}
+
+button{
+  width: 60px;
+  height: 30px;
+border: none;
+background-color: rgba(78, 109, 109, 0.074);
+position:relative;
+left: 63%;
+
+color:  rgba(16, 99, 78, 0.9);
+
+}
+  }}
+  }
+  
